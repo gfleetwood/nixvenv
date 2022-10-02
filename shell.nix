@@ -2,7 +2,6 @@ with import <nixpkgs> {};
 let
   my-python-packages = python-packages: [
     python-packages.pip
-    python-packages.numpy
   ];
   my-python = python310.withPackages my-python-packages;
 in
