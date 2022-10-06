@@ -1,3 +1,3 @@
 # pynixenv
 
-Python virtual environments with nix.
+Virtual environments with nix.
